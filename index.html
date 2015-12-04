@@ -1,18 +1,28 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Intentional Capital</title>
-    <link rel="javascript" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js" title="jquery_min">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css"  title="bootstrap_min_css">
-    <link rel="javascript" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"  title="bootstrap_min_js">
-    <link rel="javascript" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" title="fa_min_css">
-    <link rel="javascript" href="https://cdnjs.cloudflare.com/ajax/libs/sass.js/0.9.3/sass.min.js">
-    <link rel="javascript" href="">
-    <link rel="stylesheet" href="public/css/styles.css">
-    <link rel="javascript" href="/javascript/custom.js">
-  </head>
-  <body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>IntentionalCapital</title>
+
+	<!-- CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
+	<link href="assets/css/animate.css" rel="stylesheet">
+
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+
+    <script src="assets/js/modernizr.custom.js"></script>
+
+</head>
+<body>
+
+	<!-- Preloader -->
 
 	<div id="preloader">
 		<div id="status"></div>
@@ -29,16 +39,63 @@
 			</div>
 		</div>
 
+		<div class="contact-information">
+			<p>info@intentionalcap.com</p>
+			<p>+1 (415) 275-2075</p>
+			<div class="btn btn-primary">
+				Client Login
+			</div>
+		</div>
+
+<!--
         <a href="#main">
 					<div class="scroll-down">
+
+
             <span>
                 <i class="fa fa-angle-down fa-2x"></i>
             </span>
 					</div>
-        </a>
+        </a> -->
 
 	</section>
 
+	<!-- Home end -->
 
-  </body>
+	<!-- Navigation start -->
+
+
+	<!-- Javascript files -->
+
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+	<script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.easypiechart.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.cbpQTRotator.js"></script>
+	<script src="assets/js/custom.js"></script>
+
+	<script type="text/javascript">
+		function toggleHidden (str) {
+			$('.tabbable').each(function (idx, el) {
+
+				if ($(el).hasClass(str) && $(el).hasClass(str)) {
+					$(el).removeClass('hidden')
+				} else {
+					$(el).addClass('hidden')
+				}
+			});
+		}
+
+		$('.tab-hunter').click(function(e){
+			e.preventDefault()
+
+			toggleHidden(e.currentTarget.className.split(" ")[0])
+		})
+	</script>
+</body>
 </html>
