@@ -167,12 +167,14 @@ font-weight: 900;
 
 
 #tf-home h1{
-	font-size: 46px;
+	font-size: 48px;
 	letter-spacing: 4px;
+	color: #fff;
+
 }
 
 #tf-home h1 span{
-	/*text-shadow: 1px 1px 2px white;*/
+	color: #fff;
 }
 
 #tf-home p.lead{
