@@ -1,101 +1,666 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intentional Capital</title>
+    <meta name="description" content="Spirit8 is a Digital agency one page template built based on bootstrap framework. This template is design by Robert Berki and coded by Jenn Pereira. It is simple, mobile responsive, perfect for portfolio and agency websites. Get this for free exclusively at ThemeForces.com">
+    <meta name="keywords" content="bootstrap theme, portfolio template, digital agency, onepage, mobile responsive, spirit8, free website, free theme, themeforces themes, themeforces wordpress themes, themeforces bootstrap theme">
+    <meta name="author" content="ThemeForces.com">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
 
-	<title>IntentionalCapital</title>
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-	<!-- CSS -->
-	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
-	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
-	<link href="assets/css/animate.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
-	<!-- Custom styles CSS -->
-	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+    <!-- Slider
+    ================================================== -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
 
-    <script src="assets/js/modernizr.custom.js"></script>
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
-</head>
-<body>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
 
-	<!-- Preloader -->
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
-	<div id="preloader">
-		<div id="status"></div>
-	</div>
+    <script type="text/javascript">
+      window.thanks = "Big Thanks To Jenn Pereira and Robert Berki"
 
-	<!-- Home start -->
+    </script>
 
-	<section id="home" class="pfblock-image screen-height">
-    <div class="home-overlay"></div>
-		<div class="intro">
-			<h1>Welcome to Intentional Capital</h1>
-			<div class="start">
-				Wealth Management & Impact Investment
-			</div>
-		</div>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Navigation
+    ==========================================-->
+    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Intentional Capital</a>
+        </div>
 
-		<div class="contact-information">
-			<p>info@intentionalcap.com</p>
-			<p>+1 (415) 275-2075</p>
-			<div class="btn btn-primary">
-				Client Login
-			</div>
-		</div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#tf-home" class="page-scroll">Home</a></li>
+            <li><a href="#tf-about" class="page-scroll">About</a></li>
+            <li><a href="#tf-team" class="page-scroll">How we invest</a></li>
+            <li><a href="#tf-services" class="page-scroll">Investment thesis</a></li>
+            <li><a href="#tf-works" class="page-scroll">Investment themes</a></li>
+            <!-- <li><a href="#tf-testimonials" class="page-scroll">Testimonials</a></li> -->
+            <li><a href="#research" class="page-scroll">Research</a></li>
+            <!-- <li><a href="#" class="page-scroll"><i>Client Login</i></a></li> -->
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
-<!--
-        <a href="#main">
-					<div class="scroll-down">
+    <!-- Home Page
+    ==========================================-->
+    <div id="tf-home" class="tf-home text-center">
+        <div class="overlay">
+            <div class="content">
+                <h1>Welcome to <strong><span class="color">Intentional Capital</span></strong></h1>
+                <p class="lead">Wealth & Impact Investment Management</p>
+                <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us Page
+    ==========================================-->
+    <div id="tf-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                  <!-- <img src="http://res.cloudinary.com/djjldnjz7/image/upload/w_0.11,h_0.11/v1442535738/tide_hits_rocks_ddc1qc.jpg" class="img-responsive"> -->
+                  <img src="http://res.cloudinary.com/djjldnjz7/image/upload/w_0.1,h_0.1/v1442536372/inside_ocean_tvlug6.jpg" class="img-responsive">
+
+                </div>
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <h4>About us</h4>
+                            <!-- <h2>Why Intentional <strong>Capital</strong></h2> -->
+                            <hr>
+                            <div class="clearfix"></div>
+                        </div>
+                        <p class="intro">
+                          Intentional Capital is a specialty investment firm designed to serve the financial interests and
+                          impact aspirations of a select group of ultra-high-net-worth families.  Our specialty is
+                          investment management with the intention of generating social and environmental impact
+                          while generating financial return.  We create and implement bespoke investment strategies,
+                          enabling our clients’ investment portfolios to play a role their life’s work.
+                        </p>
+
+                        <!-- hidden element here -->
+                        <ul class="about-list hidden">
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Mission</strong> - <em>We deliver uniqueness and quality</em>
+                            </li>
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Skills</strong> - <em>Delivering fast and excellent results</em>
+                            </li>
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Clients</strong> - <em>Satisfied clients thanks to our experience</em>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Page
+    ==========================================-->
+    <div id="tf-team" class="text-center">
+        <div class="overlay">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>How we <strong>invest</strong></h2>
+                    <div class="line">
+                    </div>
+                </div>
+
+                <div id="team" class="owl-carousel owl-theme row">
+                    <div class="item">
+                        <div class="thumbnail">
+                            <i class="fa fa-globe"></i>
+                            <!-- <img src="img/team/01.jpg" alt="..." class="img-circle team-img"> -->
+                            <div class="caption">
+                                <h4>Global Equities</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <i class="fa fa-building"></i>
+                            <!-- <img src="img/team/01.jpg" alt="..." class="img-circle team-img"> -->
+                            <div class="caption">
+                                <h4>Public and Private Funds</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <i class="fa fa-arrow-circle-right"></i>
+                            <!-- <img src="img/team/02.jpg" alt="..." class="img-circle team-img"> -->
+                            <div class="caption">
+                                <h4>Direct Private Equity</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                          <i class="fa fa-arrow-right"></i>
+
+                            <!-- <img src="img/team/03.jpg" alt="..." class="img-circle team-img"> -->
+                            <div class="caption">
+                                <h4>Direct Debt</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                          <i class="fa fa-university"></i>
+
+                            <!-- <img src="img/team/04.jpg" alt="..." class="img-circle team-img"> -->
+                            <div class="caption">
+                                <h4>Project Finance</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section
+    ==========================================-->
+    <div id="tf-services" class="text-center">
+        <div class="container">
+            <div class="section-title center">
+                <h2><strong>The investment THESIS</strong></h2>
+                <div class="line2">
+                    <hr2>
+                </div>
+                <div class="clearfix"></div>
+                <ul>
+                  <li>The debate is over.  Independent <a href="#research" class="page-scroll"><b>research</b></a> has proven that
+                    sustainable investing is more than just a valid investment strategy -  by many measures, it is a
+                    superior investment strategy.
+                  </li>
+                  <li>
+                    In addition to assisting our clients with manager selection and oversight for public markets, our
+                    specialty is sourcing and rigorously vetting dual-mandate investments.  We seek investment-
+                    grade opportunities that also achieve positive impact in an area, such as environment or social
+                    equality, that is of personal value to the investor.
+                  </li>
+                  <li>
+                    We are actively seeking investments, both private and public, in the sectors where we believe it
+                    is possible to achieve both meaningful social and environmental impact and market-rate
+                    financial returns.
+                  </li>
+
+                  <li>
+                    In specific cases, an investor may accept less-than-market-rate financial returns in order to
+                    support a desired social or environmental impact outcome. We believe this calculus is highly
+                    personal and investor willingness to make financial tradeoffs is highly situational.  As such, we
+                    consider “impact-first” investments on a case-by-case basis.
+                  </li>
+                </ul>
 
 
-            <span>
-                <i class="fa fa-angle-down fa-2x"></i>
-            </span>
-					</div>
-        </a> -->
 
-	</section>
+                <!-- <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small> -->
+            </div>
+            <div class="space hidden"></div>
+            <div class="row hidden">
+                <div class="col-md-3 col-sm-6 service">
+                    <i class="fa fa-desktop"></i>
+                    <h4><strong>Web design</strong></h4>
+                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
 
-	<!-- Home end -->
+                <div class="col-md-3 col-sm-6 service">
+                    <i class="fa fa-mobile"></i>
+                    <h4><strong>Mobile Apps</strong></h4>
+                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
 
-	<!-- Navigation start -->
+                <div class="col-md-3 col-sm-6 service">
+                    <i class="fa fa-camera"></i>
+                    <h4><strong>Photography</strong></h4>
+                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6 service">
+                    <i class="fa fa-bullhorn"></i>
+                    <h4><strong>Marketing</strong></h4>
+                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Clients Section
+    ==========================================-->
+    <div id="tf-clients" class="text-center hidden">
+        <div class="overlay">
+            <div class="container">
+
+                <div class="section-title center">
+                    <h2>Some of <strong>our Clients</strong></h2>
+                    <div class="line">
+                        <hr>
+                    </div>
+                </div>
+
+                <div id="clients" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="img/client/01.png">
+                    </div>
+                    <div class="item">
+                        <img src="img/client/02.png">
+                    </div>
+                    <div class="item">
+                        <img src="img/client/03.png">
+                    </div>
+                    <div class="item">
+                        <img src="img/client/04.png">
+                    </div>
+                    <div class="item">
+                        <img src="img/client/05.png">
+                    </div>
+                    <div class="item">
+                        <img src="img/client/06.png">
+                    </div>
+                    <div class="item">
+                        <img src="img/client/07.png">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section
+    ==========================================-->
+    <div id="tf-works">
+        <div class="container"> <!-- Container -->
+            <div class="section-title text-center center">
+                <h2>Investment <strong>Themes</strong></h2>
+                <div class="line2">
+                </div>
+                <div class="clearfix"></div>
+                <!-- <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small> -->
+            </div>
+            <div class="space"></div>
+
+            <div class="categories hidden">
+
+                <ul class="cat">
+                    <li class="pull-left"><h4>Filter by Type:</h4></li>
+                    <li class="pull-right">
+                        <ol class="type">
+                            <li><a href="#" data-filter="*" class="active">All</a></li>
+                            <li><a href="#" data-filter=".environmental">Enviromental</a></li>
+                            <li><a href="#" data-filter=".social">Social</a></li>
+                        </ol>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="lightbox" class="row">
+
+                <div class="col-sm-6 col-md-3 col-lg-3 environmental">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                          <div class="hover-text">
+                            <h4>Clean Energy & Efficiency</h4>
+                          </div>
+                          <img src="http://res.cloudinary.com/djjldnjz7/image/upload/w_262,h_262,c_fill/v1442541569/wind_power_pretty_road_g7p9wz.jpg" class="img-responsive" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 social">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Civic Engagement</h4>
+                                    <!-- <small>Social</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i> -->
+                                </div>
+                                <img src="http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1442542678/little_jane_in_train_station_knlqau.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 environmental">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Environmental Health</h4>
+                                    <!-- <small>Environmental</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i> -->
+                                </div>
+                                <img src="http://res.cloudinary.com/djjldnjz7/image/upload/w_262,h_262,c_fill/v1442541490/toner-906142_1280_faeggt.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 social">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Financial Empowerment</h4>
+                                    <!-- <small>Social</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i> -->
+                                </div>
+                                <img src="http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1442542548/white_poverty_2_jtqb95.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 environmental">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Natural Resources</h4>
+                                    <!-- <small>Environmental</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i> -->
+                                </div>
+                                <img src="http://res.cloudinary.com/djjldnjz7/image/upload/w_262,h_262,c_fill/v1442541518/fall_river_xo51zj.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 social">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Gender Lens</h4>
+                                    <!-- <small>Social</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i> -->
+                                </div>
+                                <img src="http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1442542676/mother_and_daughter_vrtjhv.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 environmental">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Resource Efficiency</h4>
+                                    <!-- <small>Environmental</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i> -->
+                                </div>
+                                <img src="http://res.cloudinary.com/djjldnjz7/image/upload/w_262,h_262,c_fill/v1442541488/ppp_f9zazt.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
 
-	<!-- Javascript files -->
+                <div class="col-sm-6 col-md-3 col-lg-3 social">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
 
-	<script src="assets/js/jquery-1.11.1.min.js"></script>
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
-	<script src="assets/js/imagesloaded.pkgd.js"></script>
-	<script src="assets/js/jquery.sticky.js"></script>
-	<script src="assets/js/smoothscroll.js"></script>
-	<script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/jquery.easypiechart.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.cbpQTRotator.js"></script>
-	<script src="assets/js/custom.js"></script>
+                                    <h4>Animal Rights</h4>
+                                    <!-- <small>Social</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i> -->
+                                </div>
+                                <img src="http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1442542559/baby_lambs_dwecgx.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-	<script type="text/javascript">
-		function toggleHidden (str) {
-			$('.tabbable').each(function (idx, el) {
+                <div class="col-sm-6 col-md-3 col-lg-3 social">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Arts & Education</h4>
+                                    <!-- <small>Social</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i> -->
+                                </div>
+                                <img src="http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1442542631/swing_set_ouwmsj.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-				if ($(el).hasClass(str) && $(el).hasClass(str)) {
-					$(el).removeClass('hidden')
-				} else {
-					$(el).addClass('hidden')
-				}
-			});
-		}
 
-		$('.tab-hunter').click(function(e){
-			e.preventDefault()
+                <div class="col-sm-6 col-md-3 col-lg-3 social">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Community Infrastructure</h4>
+                                    <!-- <small>Social</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i> -->
+                                </div>
+                                <img src="http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1442542553/broken_sidewalk_oearsb.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-			toggleHidden(e.currentTarget.className.split(" ")[0])
-		})
-	</script>
-</body>
+
+
+                <div class="col-sm-6 col-md-3 col-lg-3 social">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Health & Wellbeing</h4>
+                                    <!-- <small>Social</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i> -->
+                                </div>
+                                <img src="http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1442542518/hypertension-867855_1280_ul8zkg.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 social">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Livelihoods</h4>
+                                    <!-- <small>Social</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i> -->
+                                </div>
+                                <img src="http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1442542560/work-boots_foya6i.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section
+    ==========================================-->
+    <!-- <div id="tf-testimonials" class="text-center">
+        <div class="overlay">
+            <div class="container">
+                <div class="section-title center">
+                    <h2><strong>Our clients’</strong> testimonials</h2>
+                    <div class="line">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div id="testimonial" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <h5>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h5>
+                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
+                            </div>
+
+                            <div class="item">
+                                <h5>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h5>
+                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
+                            </div>
+
+                            <div class="item">
+                                <h5>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h5>
+                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Contact Section
+    ==========================================-->
+    <div id="research" class="text-center">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+
+                    <div class="section-title center">
+                        <h2><strong>Research</strong></h2>
+                        <div class="line2">
+                        </div>
+                        <!-- <div class="clearfix"></div> -->
+                        <!-- <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small> -->
+                    </div>
+
+                    <ul>
+                      <li><a href="#research"><i>Harvard Study</i></a></li>
+                      <li><a href="#research"><i>McKinsey Study</i></a></li>
+                    </ul>
+
+                    <form class="hidden">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Message</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn tf-btn btn-default">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <nav id="footer">
+        <div class="container">
+            <div class="pull-left fnav hidden">
+                <p>ALL RIGHTS RESERVED. COPYRIGHT © 2014. Designed by <a href="https://dribbble.com/shots/1817781--FREEBIE-Spirit8-Digital-agency-one-page-template">Robert Berki</a> and Coded by <a href="https://dribbble.com/jennpereira">Jenn Pereira</a></p>
+            </div>
+            <div class="pull-right fnav">
+                <ul class="footer-social">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+
+    <script src="js/owl.carousel.js"></script>
+
+    <!-- Javascripts
+    ================================================== -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
 </html>
