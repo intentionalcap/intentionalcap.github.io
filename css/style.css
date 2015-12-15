@@ -10,6 +10,11 @@ body, html{
 	color: #5a5a5a;
 }
 
+#contact {
+	padding: 0px 160px;
+	margin-bottom: 40px;
+}
+
 h1{
 	text-transform: uppercase;
 }
@@ -567,6 +572,8 @@ ol.type li a.active { font-weight: 700; }
 }
 /* Contact Section */
 #research {
+	/*background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1444629611/74H_kqcdkz.jpg);*/
+	/*background-size: cover;*/
 	padding-bottom: 280px;
 	padding-top: 140px;
 }
