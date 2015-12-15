@@ -16,7 +16,7 @@
 
     <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> -->
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
@@ -634,7 +634,7 @@
             <!-- <div class="clearfix"></div> -->
             <!-- <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small> -->
         </div>
-      <form>
+      <div>
           <div class="row">
               <div class="col-md-6">
                   <div class="form-group">
@@ -654,8 +654,10 @@
               <textarea class="form-control" rows="3"></textarea>
           </div>
 
-          <button type="submit" class="btn tf-btn btn-default">Submit</button>
-      </form>
+          <div class="btn tf-btn btn-primary">Submit</div>
+
+
+      </div>
     </div>
 
 
@@ -684,6 +686,18 @@
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/SmoothScroll.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.js"></script>
+    <script type="text/javascript">
+      $('.tf-btn').click(function (e) {
+        e.preventDefault();
+        var email = $('input#exampleInputEmail1').val();
+        alert('Thank you for your email ' + email + '. We will get back to you shortly.')
+        $('input#exampleInputPassword1').val('')
+        $('textarea.form-control').val('')
+
+      })
+
+
+    </script>
 
     <script src="js/owl.carousel.js"></script>
 

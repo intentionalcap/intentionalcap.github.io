@@ -623,7 +623,7 @@ label {
 	box-shadow: transparent;
 }
 
-button.btn.tf-btn.btn-default {
+div.btn.tf-btn {
 	float: right;
 	background: #286090;
 	border: 0;
