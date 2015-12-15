@@ -11,13 +11,12 @@ body, html{
 }
 
 #contact {
-	margin: 0px 160px;
+	margin: 0px auto;
 	margin-bottom: 240px;
 	margin-top: 140px;
 	/*border: 2px solid #286090;*/
 	position: relative;
-	width: 60%;
-	left: 10%;
+	width: 720px;
 	padding: 2px 27px;
 	padding-bottom: 22px;
 	border-radius: 2px;
