@@ -7,12 +7,13 @@ body, html{
 	font-family: 'Lato', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #5a5a5a;
+	color: #3A3A3A;
 }
 
 #contact {
 	margin: 0px 160px;
 	margin-bottom: 240px;
+	margin-top: 140px;
 	/*border: 2px solid #286090;*/
 	position: relative;
 	width: 60%;
@@ -256,6 +257,7 @@ ul.about-list li span{
 /* Team Section */
 #tf-team{
 	background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1445127278/wopenwaters_ibawof.jpg);
+	/*background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1444629611/74H_kqcdkz.jpg);*/
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -675,8 +677,10 @@ ol.type li a.active { font-weight: 700; }
 }
 /* Contact Section */
 #research {
-	/*background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1444629611/74H_kqcdkz.jpg);*/
-	/*background-size: cover;*/
+	color: #3A3A3A;
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1444629611/74H_kqcdkz.jpg);
+	/*background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1445127278/wopenwaters_ibawof.jpg);*/
+	background-size: cover;
 	padding-bottom: 300px;
 	padding-top: 180px;
 }
