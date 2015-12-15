@@ -13,7 +13,7 @@ body, html{
 #contact {
 	margin: 0px 160px;
 	margin-bottom: 240px;
-	border: 2px solid #286090;
+	/*border: 2px solid #286090;*/
 	position: relative;
 	width: 60%;
 	left: 10%;
@@ -534,7 +534,7 @@ ol.type li a.active { font-weight: 700; }
 }
 
 
-.portfolio-item.corportate-responcibility{
+.portfolio-item.corportate-sustainability{
 	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1450219056/1_5_w03ckb.jpg);
 	background-size: cover;
 }
@@ -550,6 +550,18 @@ ol.type li a.active { font-weight: 700; }
 	padding-top: 27%;
 }
 
+.water-scarcity .hover-bg .hover-text {
+	padding-top: 28%;
+}
+
+
+.gender-empowerment .hover-bg .hover-text {
+	padding-top: 26%;
+}
+
+.sustainable-agriculture .hover-bg .hover-text {
+	padding-top: 26%;
+}
 .clean-energy .hover-bg .hover-text {
 	padding: 0% 10%;
 	padding-top: 27%;
@@ -557,7 +569,16 @@ ol.type li a.active { font-weight: 700; }
 
 .life-sciences .hover-bg .hover-text {
 	padding: 0% 10%;
-	padding-top: 27%;
+	padding-top: 28%;
+}
+
+.corportate-sustainability .hover-bg .hover-text {
+	padding: 0% 10%;
+	padding-top: 26%;
+}
+
+.education .hover-bg .hover-text {
+	padding-top: 28%;
 }
 
 .portfolio-item .hover-bg{
