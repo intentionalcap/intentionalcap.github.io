@@ -521,6 +521,11 @@ ol.type li a.active { font-weight: 700; }
 	background-size: cover;
 }
 
+.portfolio-item.sustainable-agriculture .hover-bg .hover-text {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 .portfolio-item.gender-empowerment{
 	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fit/v1442542676/mother_and_daughter_vrtjhv.jpg);
 	background-size: cover;
@@ -532,13 +537,12 @@ ol.type li a.active { font-weight: 700; }
 }
 
 .portfolio-item.life-sciences{
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1450218747/1_1_r63gsa.jpg);
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fit/v1450218747/1_1_r63gsa.jpg);
 	background-size: cover;
 }
 
-
 .portfolio-item.education{
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1450218970/1_4_ppkhkq.jpg);
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fit/v1450218970/1_4_ppkhkq.jpg);
 	background-size: cover;
 }
 
@@ -551,20 +555,16 @@ ol.type li a.active { font-weight: 700; }
 
 .social-empowerment .hover-bg .hover-text {
 	padding: 0% 8%;
-	padding-top: 27%;
+	padding-top: 26%;
 }
-
-
-
 
 .gender-empowerment .hover-bg .hover-text {
 	padding: 0% 8%;
-	padding-top: 29%;
 }
 
 .natural-resources .hover-bg .hover-text {
 	padding: 0% 10%;
-	padding-top: 27%;
+	padding-top: 26%;
 }
 
 .water-scarcity .hover-bg .hover-text {
@@ -577,11 +577,11 @@ ol.type li a.active { font-weight: 700; }
 }
 
 .sustainable-agriculture .hover-bg .hover-text {
-	padding-top: 26%;
+	padding-top: 28%;
 }
 .clean-energy .hover-bg .hover-text {
 	padding: 0% 10%;
-	padding-top: 27%;
+	padding-top: 26%;
 }
 
 .life-sciences .hover-bg .hover-text {
@@ -591,11 +591,11 @@ ol.type li a.active { font-weight: 700; }
 
 .corportate-sustainability .hover-bg .hover-text {
 	padding: 0% 10%;
-	padding-top: 26%;
+	padding-top: 25%;
 }
 
 .education .hover-bg .hover-text {
-	padding-top: 28%;
+	padding-top: 27%;
 }
 
 .portfolio-item .hover-bg{
