@@ -500,24 +500,29 @@ ol.type li a.active { font-weight: 700; }
 	background-size: cover;
 }
 
+.portfolio-item.clean-energy .hover-bg .hover-text {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
 .portfolio-item.water-scarcity{
 	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_262,h_262,c_fill/v1450218653/1_dinzke.jpg);
 	background-size: cover;
 }
 
 .portfolio-item.natural-resources{
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_262,h_262,c_fill/v1450218798/1_2_xik68t.jpg);
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_262,h_262,c_fit/v1450218798/1_2_xik68t.jpg);
 	background-size: cover;
 }
 
 
 .portfolio-item.sustainable-agriculture{
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_262,h_262,c_fill/v1442541488/ppp_f9zazt.jpg);
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_262,h_262,c_fit,g_south/v1442541488/ppp_f9zazt.jpg);
 	background-size: cover;
 }
 
 .portfolio-item.gender-empowerment{
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1442542676/mother_and_daughter_vrtjhv.jpg);
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fit/v1442542676/mother_and_daughter_vrtjhv.jpg);
 	background-size: cover;
 }
 
@@ -547,6 +552,14 @@ ol.type li a.active { font-weight: 700; }
 .social-empowerment .hover-bg .hover-text {
 	padding: 0% 8%;
 	padding-top: 27%;
+}
+
+
+
+
+.gender-empowerment .hover-bg .hover-text {
+	padding: 0% 8%;
+	padding-top: 29%;
 }
 
 .natural-resources .hover-bg .hover-text {
