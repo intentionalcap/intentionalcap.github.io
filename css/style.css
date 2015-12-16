@@ -178,11 +178,6 @@ font-weight: 900;
 	width: 100%;
 	z-index: 1;
 }
-.about-us {
-	position: relative;
-	top: -60px;
-
-}
 
 #tf-home h1{
 	font-size: 48px;
@@ -233,7 +228,7 @@ a.fa.fa-angle-down:hover{
 /* About Section */
 #tf-about{
 	padding: 240px 0;
-	padding-bottom: 280px 0;
+	font-size: 16px;
 }
 
 #tf-about .section-title{
@@ -244,6 +239,13 @@ a.fa.fa-angle-down:hover{
 	position: relative;
 	left: 45.88%;
 }
+
+.about-us {
+	position: relative;
+	top: -60px;
+	margin-bottom: 20px;
+}
+
 
 ul.about-list{ margin: 30px 0 0 ;}
 ul.about-list li{
@@ -374,7 +376,8 @@ img.img-circle.team-img {
 /* Services Section */
 #tf-services{
 	padding: 200px 0;
-	padding-bottom: 60px;
+	padding-bottom: 200px;
+	font-size: 16px;
 
 }
 #tf-services li{
@@ -441,7 +444,7 @@ img.img-circle.team-img {
 ==============================*/
 #tf-works{
 	padding: 50px 0;
-	padding-bottom: 200px;
+	padding-bottom: 240px;
 }
 .categories{
 	padding: 10px 0;
@@ -696,8 +699,8 @@ ol.type li a.active { font-weight: 700; }
 	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1444629611/74H_kqcdkz.jpg);
 	/*background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1445127278/wopenwaters_ibawof.jpg);*/
 	background-size: cover;
-	padding-bottom: 300px;
-	padding-top: 180px;
+	padding-bottom: 180px;
+	padding-top: 140px;
 }
 
 
