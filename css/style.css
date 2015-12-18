@@ -36,6 +36,9 @@ h2{
 h3{
 font-size: 18px;
 font-weight: 900;
+text-transform: uppercase;
+line-height: 20px;
+margin:  0;
 }
 h4{
 	text-transform: uppercase;
@@ -63,7 +66,7 @@ a:focus{
 
 .section-title hr {
 	border-color: #286090;
-	border-width: 4px;
+	border-width: 2px;
 	width: 60px;
 	float: left;
 	clear: both;
@@ -165,8 +168,8 @@ font-weight: 900;
 	}
 /* Home Style */
 #tf-home{
-	background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1444629611/74H_kqcdkz.jpg);
-	/*background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1442535738/tide_hits_rocks_ddc1qc.jpg);*/
+	background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450314227/lake_2_idxe7v.jpg);
+	/*background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450314234/mountain_sun_tipped_vyaxoh.jpg);*/
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -208,27 +211,23 @@ font-weight: 900;
 }
 
 a.fa.fa-angle-down {
-	padding: 10px 15px;
+	padding: 8px 13px;
 	color: #fff;
 	/*border: 1px solid rgba(0,0,0,0);*/
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
 	border-radius: 50%;
-	font-size: 24px;
+	font-size: 36px;
 	margin-top: 200px;
 	margin-bottom: 163px;
 	transition: all 0.5s;
-	font-weight: bold;
+	font-weight: 900;
 }
 a.fa.fa-angle-down:hover{
-	background: #286090;
-	color: #ffffff;
-	border: 1px solid rgba(0,0,0,0);
-	font-weight: normal;
-
+	font-weight: 600;
 }
 /* About Section */
 #tf-about{
-	padding: 240px 0;
+	padding: 200px 0;
 	font-size: 16px;
 }
 
@@ -260,18 +259,20 @@ ul.about-list li span{
 }
 
 /* Team Section */
-#tf-team{
-	background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1445127278/wopenwaters_ibawof.jpg);
+#how-we-invest{
+	background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450314234/mountain_sun_tipped_vyaxoh.jpg);
+	/*background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450314227/lake_2_idxe7v.jpg);*/
+	/*background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1445127278/wopenwaters_ibawof.jpg);*/
 	/*background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1444629611/74H_kqcdkz.jpg);*/
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	color: #ffffff;
 }
-#tf-team .overlay{
+#how-we-invest .overlay{
 	/*background-color: rgba(44,62,80,0.35);*/
 	height: 100%;
-	padding: 240px 0;
+	padding: 160px 0;
 	padding-bottom: 240px 0;
 }
 .section-title.center{
@@ -282,7 +283,7 @@ ul.about-list li span{
 	font-weight: 300;
 }
 .section-title.center .line {
-	border-top: 4px solid #fff;
+	border-top: 2px solid #fff;
 	height: 10px;
 	width: 60px;
 	text-align: center;
@@ -291,7 +292,7 @@ ul.about-list li span{
 }
 
 .section-title.center .line2 {
-	border-top: 4px solid #286090;
+	border-top: 2px solid #286090;
 	height: 10px;
 	width: 60px;
 	text-align: center;
@@ -333,19 +334,19 @@ img.img-circle.team-img {
 	border: 4px solid transparent;
 	transition: all 0.5s;
 }
-#tf-team .item .thumbnail:hover>img.img-circle.team-img{
+#how-we-invest .item .thumbnail:hover>img.img-circle.team-img{
 	border: 4px solid #286090;
 }
-#tf-team .thumbnail {
+#how-we-invest .thumbnail {
 	background: transparent;
 	border: 0;
 }
 
-#tf-team .thumbnail i {
+#how-we-invest .thumbnail i {
 	font-size: 60px;
 }
 
-#tf-team .thumbnail .caption {
+#how-we-invest .thumbnail .caption {
 	padding: 9px;
 	color: #F2F2F2;
 }
@@ -375,24 +376,24 @@ img.img-circle.team-img {
 }
 
 /* Services Section */
-#tf-services{
-	padding: 200px 0;
+#investment-thesis{
+	padding: 160px 0;
 	padding-bottom: 200px;
 	font-size: 16px;
 
 }
-#tf-services li{
+#investment-thesis p{
 	text-align: left;
-	margin: 10px 157px;
+	margin: 22px 157px;
 	padding: 0px 5px;
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .space {
 	margin-top: 40px;
 }
 
-#tf-services i.fa {
+#investment-thesis i.fa {
 	font-size: 40px;
 	border: 4px solid #286090;
 	width: 100px;
@@ -403,12 +404,12 @@ img.img-circle.team-img {
 	transition: all 0.5s;
 }
 
-#tf-services i.fa.fa-mobile{
+#investment-thesis i.fa.fa-mobile{
 	font-size: 50px;
 	padding: 20px 25px;
 }
 
-#tf-services .service:hover>i.fa{
+#investment-thesis .service:hover>i.fa{
 	background: #286090;
 	color: #ffffff;
 }
