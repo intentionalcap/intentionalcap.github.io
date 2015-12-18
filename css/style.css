@@ -97,12 +97,17 @@ font-weight: 900;
 	font-size: 12px;
 	font-weight: 900;
 	letter-spacing: 1px;
+	transition: all 0.5s ease;
 
 	i {
 		border: solid 1px white;
 		padding: 8px;
 		border-radius: 20px;
 	}
+}
+
+#tf-menu.navbar-default .navbar-nav > li:hover > a {
+	text-shadow: 0px 0px 1px #fff;
 }
 
 
@@ -132,8 +137,6 @@ font-weight: 900;
 		border-radius: 20px;
 	}
 }
-
-
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -355,10 +358,12 @@ ul.about-list li span{
 .owl-theme .owl-controls.clickable .owl-page:hover span {
 	filter: Alpha(Opacity=100);
 	opacity: 1;
-	background: #286090;
+	text-shadow: 0px 0px 1px #fff;
+
 }
 .owl-theme .owl-controls .owl-page.active span{
-	background: #286090;
+	background: #aaa;
+
 }
 
 /* Services Section */
@@ -380,7 +385,7 @@ ul.about-list li span{
 }
 
 #themes{
-	padding: 2px 0;
+	padding-bottom: 80px;
 }
 .portfolio-item {
 	height: 260px;
@@ -451,12 +456,18 @@ ul.about-list li span{
 
 #research {
 	color: #fff;
-	font-size: 16px;
+	font-size: 18px;
 	padding: 80px 0px;
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/o_80/v1450314230/mountaintops_l76yfe.jpg);
+	background-size: cover;
 }
 
 #research .section-title.center .line2 {
 	width: 140px;
+}
+
+#research a {
+	color: #222;
 }
 
 #contact {
