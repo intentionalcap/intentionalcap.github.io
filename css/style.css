@@ -228,7 +228,7 @@ a.fa.fa-angle-down:hover{
 }
 
 #about .the-team hr{
-	
+
 }
 
 
@@ -369,54 +369,65 @@ ul.about-list li span{
 	padding: 80px 0;
 }
 .portfolio-item {
-	background: rgba(0, 0, 0, 0.16);
 	height: 260px;
 	overflow: hidden;
 	position: relative;
 	color: white;
 	margin-bottom: 30px;
 	color: white;
+	padding: 98px 78px;
+	transition: all 0.5s ease;
+	background: linear-gradient(
+       rgba(0, 0, 0, 0.8),
+       rgba(0, 0, 0, 0.9)
+     ),
+
 }
 
-.portfolio-item h4 {
+.portfolio-item h3 {
 	text-align: center;
+	font-weight: bold;
 }
 
+.portfolio-item:hover {
+	opacity: 0.6;
+	border-radius: 3px;
+}
 
 .portfolio-item.clean-energy{
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_262,h_262,c_fill/v1442541569/wind_power_pretty_road_g7p9wz.jpg);
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,c_fill/v1442541569/wind_power_pretty_road_g7p9wz.jpg);
 	background-size: cover;
 }
 .portfolio-item.water-scarcity{
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_262,h_262,c_fill/v1450218653/1_dinzke.jpg);
-	background-size: cover;
-}
-.portfolio-item.natural-resources{
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_262,h_262,c_fill/v1450218798/1_2_xik68t.jpg);
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,c_fill/v1450218653/1_dinzke.jpg);
 	background-size: cover;
 }
 .portfolio-item.sustainable-agriculture{
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_262,h_262,c_fill,g_south/v1442541488/ppp_f9zazt.jpg);
-	background-size: cover;
-}
-.portfolio-item.gender-empowerment{
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1442542676/mother_and_daughter_vrtjhv.jpg);
-	background-size: cover;
-}
-.portfolio-item.social-empowerment{
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1450218922/1_3_bskokk.jpg);
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,c_fit/v1442541488/ppp_f9zazt.jpg);
 	background-size: cover;
 }
 .portfolio-item.life-sciences{
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1450218747/1_1_r63gsa.jpg);
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,c_fill/v1450218747/1_1_r63gsa.jpg);
+	background-size: cover;
+}
+.portfolio-item.social-empowerment{
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,c_fill/v1450218922/1_3_bskokk.jpg);
+	background-size: cover;
+}
+.portfolio-item.natural-resources{
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,c_fit/v1450218798/1_2_xik68t.jpg);
+	background-size: cover;
+}
+.portfolio-item.gender-empowerment{
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,c_fit/v1442542676/mother_and_daughter_vrtjhv.jpg);
 	background-size: cover;
 }
 .portfolio-item.education{
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1450218970/1_4_ppkhkq.jpg);
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,c_fill/v1450218970/1_4_ppkhkq.jpg);
 	background-size: cover;
 }
 .portfolio-item.corportate-sustainability{
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_264,h_264,c_fill/v1450219056/1_5_w03ckb.jpg);
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,c_fill/v1450219056/1_5_w03ckb.jpg);
 	background-size: cover;
 }
 
