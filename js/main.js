@@ -86,7 +86,7 @@ function main() {
     Portfolio Isotope Filter
     ======================================*/
     $(window).load(function() {
-        var $container = $('#lightbox');
+        var $container = $('#themes-boxes');
         $container.isotope({
             filter: '*',
             animationOptions: {
