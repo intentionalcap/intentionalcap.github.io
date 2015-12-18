@@ -192,7 +192,7 @@ font-weight: 900;
 .content{
 	position: relative;
 	padding: 24% 0 0;
-	padding-top: 20%;
+	padding-top: 34vh;
 }
 
 .color{
@@ -286,7 +286,7 @@ ul.about-list li span{
 .section-title.center .line2 {
 	border-top: 2px solid #286090;
 	height: 10px;
-	width: 60px;
+	width: 90px;
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 20px;
@@ -559,7 +559,7 @@ ol.type li a.active { font-weight: 700; }
 
 #contact {
 	position: relative;
-	padding-bottom: 80px;
+	padding-bottom: 150px;
   padding-top: 80px;
   position: relative;
   width: 720px;
@@ -573,6 +573,7 @@ ol.type li a.active { font-weight: 700; }
 
 #contact .section-title.center .line2 {
 	float: left;
+	width: 90px;
 }
 
 #contact .contact-info {
