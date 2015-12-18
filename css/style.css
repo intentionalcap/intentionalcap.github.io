@@ -223,11 +223,24 @@ a.fa.fa-angle-down:hover{
 	text-align: left;
 }
 
-#about .the-team{
+
+#about .about-us-only{
+	margin-bottom: 30px;
+}
+
+#about .the-team {
+	float: right;
+	text-align: right;
+}
+
+#about .the-team .section-title{
+	float: right;
 	text-align: right;
 }
 
 #about .the-team hr{
+	float: right;
+	text-align: right;
 
 }
 
