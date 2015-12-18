@@ -375,7 +375,7 @@ ul.about-list li span{
 	color: white;
 	margin-bottom: 30px;
 	color: white;
-	padding: 98px 78px;
+	padding: 103px 78px;
 	transition: all 0.5s ease;
 }
 
@@ -407,10 +407,14 @@ ul.about-list li span{
 .portfolio-item.life-sciences{
 	background:  linear-gradient( rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,c_fill/v1450218747/1_1_r63gsa.jpg);
 	background-size: cover;
+	padding: 103px 85px;
+
 }
 .portfolio-item.social-empowerment{
 	background: linear-gradient( rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,c_fill/v1450218922/1_3_bskokk.jpg);
 	background-size: cover;
+	padding: 103px 65px;
+
 }
 .portfolio-item.natural-resources{
 	background: linear-gradient( rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,c_fit/v1450218798/1_2_xik68t.jpg);
@@ -427,6 +431,8 @@ ul.about-list li span{
 .portfolio-item.corportate-sustainability{
 	background: linear-gradient( rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,c_fill/v1450219056/1_5_w03ckb.jpg);
 	background-size: cover;
+	padding: 103px 63px;
+
 }
 
 #research {
@@ -441,8 +447,7 @@ ul.about-list li span{
 
 #contact {
 	position: relative;
-	padding-bottom: 80px;
-  padding-top: 80px;
+	padding: 80px 73px;
   position: relative;
   width: 720px;
 }
@@ -461,7 +466,7 @@ ul.about-list li span{
 	position: absolute;
 	text-align: right;
 	top: 0;
-	right: 27px;
+	right: 73px;
 	top: 80px;
 	letter-spacing: 1px;
 }
