@@ -461,7 +461,8 @@ ul.about-list li span{
 	color: #fff;
 	font-size: 18px;
 	padding: 80px 0px;
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1445127264/wgreentrees_l8ggy7.jpg);
+	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/h_1000,c_crop,g_south/v1450723217/wheat_lhjzfu.jpg);
+	/*background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1445127264/wgreentrees_l8ggy7.jpg);*/
 	/*background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/o_80/v1450314230/mountaintops_l76yfe.jpg);*/
 	background-size: cover;
 }
