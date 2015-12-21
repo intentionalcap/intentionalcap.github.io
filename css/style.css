@@ -162,8 +162,8 @@ font-weight: 900;
 /* Home Style */
 #home{
 	position: relative;
-	/*background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450314227/lake_2_idxe7v.jpg);*/
-	background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450314234/mountain_sun_tipped_vyaxoh.jpg);
+	background:  linear-gradient( rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450314227/lake_2_idxe7v.jpg);
+	/*background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450314234/mountain_sun_tipped_vyaxoh.jpg);*/
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -264,7 +264,8 @@ ul.about-list li span{
 
 /* Team Section */
 #how-we-invest{
-	background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450314227/lake_2_idxe7v.jpg);
+	/*background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450314227/lake_2_idxe7v.jpg);*/
+	background:   linear-gradient( rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) ),url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450725484/forest_g4vs7k.jpg);
 
 	/*background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450314234/mountain_sun_tipped_vyaxoh.jpg);*/
 	/*background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1445127278/wopenwaters_ibawof.jpg);*/
