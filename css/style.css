@@ -414,9 +414,10 @@ ul.about-list li span{
 
 
 .portfolio-item.clean-energy{
-
 	background: linear-gradient( rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,o_90,c_fill/v1442541569/wind_power_pretty_road_g7p9wz.jpg);
 	background-size: cover;
+	padding: 103px 55px;
+
 
 }
 .portfolio-item.water-scarcity{
@@ -430,18 +431,20 @@ ul.about-list li span{
 .portfolio-item.life-sciences{
 	background:  linear-gradient( rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,o_90,c_fill/v1450218747/1_1_r63gsa.jpg);
 	background-size: cover;
-	padding: 103px 85px;
+	padding: 103px 65px;
 
 }
 .portfolio-item.social-empowerment{
 	background: linear-gradient( rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,o_90,c_fill/v1450218922/1_3_bskokk.jpg);
 	background-size: cover;
-	padding: 103px 65px;
+	padding: 103px 30px;
 
 }
 .portfolio-item.natural-resources{
 	background: linear-gradient( rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,o_90,c_fit/v1450218798/1_2_xik68t.jpg);
 	background-size: cover;
+	padding: 103px 35px;
+
 }
 .portfolio-item.gender-empowerment{
 	background: linear-gradient( rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,o_90,c_fit/v1442542676/mother_and_daughter_vrtjhv.jpg);
@@ -454,7 +457,7 @@ ul.about-list li span{
 .portfolio-item.corportate-sustainability{
 	background: linear-gradient( rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/w_562,h_562,o_90,c_fill/v1450219056/1_5_w03ckb.jpg);
 	background-size: cover;
-	padding: 103px 63px;
+	padding: 103px 12px;
 
 }
 
