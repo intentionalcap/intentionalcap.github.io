@@ -264,8 +264,9 @@ ul.about-list li span{
 
 /* Team Section */
 #how-we-invest{
-	/*background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450314234/mountain_sun_tipped_vyaxoh.jpg);*/
 	background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450314227/lake_2_idxe7v.jpg);
+
+	/*background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450314234/mountain_sun_tipped_vyaxoh.jpg);*/
 	/*background: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1445127278/wopenwaters_ibawof.jpg);*/
 	/*background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1444629611/74H_kqcdkz.jpg);*/
 	background-size: cover;
@@ -461,11 +462,18 @@ ul.about-list li span{
 	color: #fff;
 	font-size: 18px;
 	padding: 80px 0px;
-	background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/h_1000,c_crop,g_south/v1450723217/wheat_lhjzfu.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/o_90,h_1200,c_crop,g_south/v1450723217/wheat_lhjzfu.jpg);
+
+	/*background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/o_90,h_1000,c_crop,g_south/v1450723217/wheat_lhjzfu.jpg);*/
 	/*background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/v1445127264/wgreentrees_l8ggy7.jpg);*/
 	/*background-image: url(http://res.cloudinary.com/djjldnjz7/image/upload/o_80/v1450314230/mountaintops_l76yfe.jpg);*/
 	background-size: cover;
 }
+
+#research::after {
+	background: rgba(40,40,40,0.6)
+}
+
 
 #research .section-title.center .line2 {
 	width: 140px;
