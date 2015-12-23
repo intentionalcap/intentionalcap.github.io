@@ -86,15 +86,15 @@ function main() {
     Portfolio Isotope Filter
     ======================================*/
     $(window).load(function() {
-        var $container = $('#themes-boxes');
-        $container.isotope({
-            filter: '*',
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-        });
+        // var $container = $('#themes-boxes');
+        // $container.isotope({
+        //     filter: '*',
+        //     animationOptions: {
+        //         duration: 750,
+        //         easing: 'linear',
+        //         queue: false
+        //     }
+        // });
         $('.cat a').click(function() {
             $('.cat .active').removeClass('active');
             $(this).addClass('active');

@@ -207,6 +207,7 @@ font-weight: 900;
 }
 
 a.fa.fa-angle-down {
+	color: #fff;
 	font-size: 36px;
 }
 a.fa.fa-angle-down:hover{
@@ -509,7 +510,6 @@ ul.about-list li span{
 	position: relative;
 	padding: 80px 73px;
   position: relative;
-  width: 720px;
 }
 
 #contact .section-title.center{
