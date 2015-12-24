@@ -510,6 +510,7 @@ ul.about-list li span{
 	position: relative;
 	padding: 80px 73px;
   position: relative;
+  max-width: 720px;
 }
 
 #contact .section-title.center{
