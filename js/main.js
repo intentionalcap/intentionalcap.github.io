@@ -89,37 +89,15 @@ function main() {
 
       $(document).ready(function() {
         $(".contact-submit").click(function() {
-          debugger
-          var name = $(".contact-name").val();
-          var organization = $(".contact-organization").val();
-          var position = $(".contact-position").val();
-          var email = $(".contact-email").val();
-          var subject = $(".contact-subject").val();
-          var message = $(".contact-message").val();
-
-          // $("#form-messages").empty(); // To empty previous error/success message.
-          // Checking for blank fields.
-          if (name == '' || organization == '' || position == '' || email == '' || subject == '' || message == '') {
-          alert("Please Fill All Required Fields");
-          } else {
-            debugger
-            // Returns successful data submission message when the entered information is stored in database.
-            $.post("contact_form.php", {
-            name1: name,
-            organization1: organization,
-            position1: position,
-            email1: email,
-            message1: message,
-            subject1: subject
-          }, function(data) {
-            debugger
-
-              $("#form-messages").append(data); // Append returned message to message paragraph.
-              if (data == "Your Query has been received, We will contact you soon.") {
-                $(".contact-form")[0].reset(); // To reset form fields on success.
+          $.ajax({
+              url: "//formspree.io/samullman@gmail.com",
+              method: "POST",
+              data: {message: "hello!"},
+              dataType: "json",
+              success: function (a, b, c) {
+                debugger
               }
-            });
-          }
+          });
         });
       });
         // var $container = $('#themes-boxes');
