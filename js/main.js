@@ -90,7 +90,7 @@ function main() {
       $(document).ready(function() {
         function sendEmail () {
           $.ajax({
-            url: "//formspree.io/samullman@gmail.com",
+            url: "//formspree.io/info@intentionalcap.com",
             method: "POST",
             data: {
               name: $('.contact-name').val(),
