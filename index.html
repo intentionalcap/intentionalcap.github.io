@@ -326,7 +326,7 @@
 
         <div class="row">
 
-          <form class="contact-form">
+          <div class="contact-form">
               <div id="form-messages"></div>
 
               <div class="form-group col-xs-12 col-md-12">
@@ -359,9 +359,9 @@
                   <textarea class="form-control contact-message" rows="4" required></textarea>
               </div>
 
-              <div type="submit" class="btn tf-btn btn-primary contact-submit">Submit</div>
-            </form>
+            </div>
         </div>
+        <div class="btn tf-btn btn-primary contact-submit">Submit</div>
         <!-- <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small> -->
     </div>
 
@@ -389,18 +389,6 @@
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/SmoothScroll.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.js"></script>
-    <script type="text/javascript">
-      $('.tf-btn').click(function (e) {
-        e.preventDefault();
-        var email = $('input#exampleInputEmail1').val();
-        alert('Thank you for your email ' + email + '. We will get back to you shortly.')
-        $('input#exampleInputPassword1').val('')
-        $('textarea.form-control').val('')
-
-      })
-
-
-    </script>
 
     <script src="js/owl.carousel.js"></script>
 
