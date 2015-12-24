@@ -102,12 +102,13 @@ function main() {
             },
             dataType: "json",
             success: function (a, b, c) {
-              $('.contact-name').val('');
               $('.contact-organization').val('');
               $('.contact-position').val('');
               $('.contact-email').val('');
               $('.contact-subject').val('');
               $('.contact-message').val('');
+              alert('Thank you,'+ $('.contact-name').val() +', for your message.')
+              $('.contact-name').val('');
             }
           });
         }

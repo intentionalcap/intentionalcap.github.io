@@ -535,7 +535,7 @@ ul.about-list li span{
 }
 
 
-div.btn.tf-btn {
+input.btn.tf-btn {
 	float: right;
 	background: #286090;
 	border: 0;
