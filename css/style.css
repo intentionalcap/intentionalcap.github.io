@@ -521,13 +521,13 @@ ul.about-list li span{
 	float: left;
 }
 
-#contact .section-title.center .line2 {
-	float: left;
-	width: 90px;
-}
 
 #contact .contact-info {
 	text-align: right;
+}
+
+#contact h2 {
+	margin-bottom: 8px;
 }
 
 
