@@ -527,12 +527,7 @@ ul.about-list li span{
 }
 
 #contact .contact-info {
-	position: absolute;
 	text-align: right;
-	top: 0;
-	right: 73px;
-	top: 80px;
-	letter-spacing: 1px;
 }
 
 
