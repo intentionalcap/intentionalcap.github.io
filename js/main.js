@@ -48,6 +48,26 @@ function main() {
     })
 
   	$(document).ready(function() {
+
+      $('.before-enter-checkbox').click(function() {
+        if (window.okToEnter) {
+          window.okToEnter = false;
+        } else {
+          window.okToEnter = true;
+        }
+      })
+
+      $('.before-enter-btn').click(function(e) {
+        e.preventDefault();
+        if (window.okToEnter) {
+          $('.modal-backdrop').addClass('hidden');
+          $('.confirm-modal').addClass('hidden');
+          $('.before-enter').removeClass('hidden');
+        } else {
+          alert('Please check box before continuing')
+        }
+      })
+
   	  $("#team").owlCarousel({
 
   	      navigation : false, // Show next and prev buttons

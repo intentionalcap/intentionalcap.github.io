@@ -3,6 +3,53 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
 
+.modal-backdrop {
+	z-index: 10000;
+	background: rgba(40, 40, 60, 0.5);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.confirm-modal {
+	z-index: 10001;
+	position: absolute;
+	width: 70%;
+	height: 400px;
+	background-color: white;
+	left: 14%;
+	top: 20%;
+	padding: 50px;
+}
+
+.confirm-modal p {
+	margin-top: 12px;
+	margin-bottom: 12px;
+	font-size: 16px;
+}
+
+.confirm-modal ul {
+	font-size: 16px;
+	position: relative;
+	left: 6%;
+}
+
+.confirm-modal ul li {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.confirm-modal .before-enter-btn {
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+	position: relative;
+	top: 92px;
+}
+
+
+
 body, html{
 	font-family: 'Lato', sans-serif;
 	text-rendering: optimizeLegibility !important;
