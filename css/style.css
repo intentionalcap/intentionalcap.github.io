@@ -17,7 +17,7 @@
 	z-index: 10001;
 	position: absolute;
 	width: 70%;
-	height: 400px;
+	min-height: 400px;
 	background-color: white;
 	left: 14%;
 	top: 20%;
@@ -44,8 +44,6 @@
 	color: #fff;
 	background-color: #337ab7;
 	border-color: #2e6da4;
-	position: relative;
-	top: 92px;
 }
 
 
@@ -304,18 +302,24 @@ a.fa.fa-angle-down:hover{
 }
 
 #about .col-md-4 {
-	padding-top: 8%;
+}
+
+#about .col-md-7 {
+	padding-left: 44px;
 }
 
 #about .about-image {
-	background:  linear-gradient( rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/v1451941006/About_Us_v1_h4kn5i.jpg);
+	background:  linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/v1451941006/About_Us_v1_h4kn5i.jpg);
 	background-size: cover;
 	position: relative;
-	min-height: 300px;
-	max-width: 400px;
+	min-height: 30vh;
+	max-width: 55vw;
 	text-align: center;
-	margin-bottom: 42px;
+	margin-bottom: 22px;
 	border-radius: 3px;
+	padding: 22vh 4vw;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
 }
 
 #about .section-title{
