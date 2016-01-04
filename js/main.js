@@ -127,7 +127,7 @@ function main() {
               $('.contact-email').val('');
               $('.contact-subject').val('');
               $('.contact-message').val('');
-              alert('Thank you,'+ $('.contact-name').val() +', for your message.')
+              alert('Thank you, '+ $('.contact-name').val() +', for your message.')
               $('.contact-name').val('');
             }
           });
