@@ -312,7 +312,7 @@ a.fa.fa-angle-down:hover{
 	background:  linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/v1451941006/About_Us_v1_h4kn5i.jpg);
 	background-size: cover;
 	position: relative;
-	min-height: 30vh;
+	height: 100%;
 	max-width: 55vw;
 	text-align: center;
 	margin-bottom: 22px;
@@ -320,6 +320,11 @@ a.fa.fa-angle-down:hover{
 	padding: 22vh 4vw;
 	margin-top: 5vh;
 	margin-bottom: 5vh;
+}
+
+
+#about .about-image {
+	margin-top: 5vh;
 }
 
 #about .section-title{
