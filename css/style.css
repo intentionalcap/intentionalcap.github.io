@@ -296,76 +296,60 @@ a.fa.fa-angle-down:hover{
 #about{
 	position: relative;
 	padding-top: 100px;
-	padding-bottom: 100px;
-	font-size: 16px;
+	padding-bottom: 180px;
+	font-size: 18px;
 
 }
-
-#about .col-md-4 {
+#about h1 {
+	margin-bottom: 78px;
 }
 
-#about .col-md-7 {
+#about .col-sm-7 {
 	padding-left: 44px;
 }
 
 #about .about-image {
-	background:  linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/v1451941006/About_Us_v1_h4kn5i.jpg);
+	background:  linear-gradient( rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/v1451941006/About_Us_v1_h4kn5i.jpg);
 	background-size: cover;
 	position: relative;
-	height: 100%;
-	max-width: 55vw;
+	min-height: 300px;
+	width: 100%;
+	padding: 0px 50px;
 	text-align: center;
-	margin-bottom: 22px;
-	border-radius: 3px;
-	padding: 22vh 4vw;
-	margin-top: 5vh;
-	margin-bottom: 5vh;
+	border-radius: 1px;
+}
+
+#who-we-are {
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 180px;
+	font-size: 18px;
+	min-height: 200px;
+	line-height: 25px;
+
+}
+
+#who-we-are h1 {
+	margin-bottom: 78px;
 }
 
 
-#about .about-image {
-	margin-top: 5vh;
+#who-we-are .col-sm-7 {
+	padding-right: 44px;
 }
 
-#about .section-title{
+#who-we-are .who-we-are-image {
+	background:  linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/v1442536372/inside_ocean_tvlug6.jpg);
+	background-size: cover;
+	position: relative;
+	min-height: 300px;
+	width: 100%;
+	padding: 0px 50px;
 	text-align: center;
+	border-radius: 1px;
 }
 
 
-#about .about-us-only{
-	margin-bottom: 30px;
-}
-
-#about .the-team {
-	float: right;
-	text-align: right;
-}
-
-#about .the-team .section-title{
-	float: right;
-	text-align: right;
-}
-
-#about .the-team hr{
-	float: right;
-	text-align: right;
-
-}
-
-
-
-ul.about-list{ margin: 30px 0 0 ;}
-ul.about-list li{
-	display: block;
-	font-size: 16px;
-	line-height: 30px;
-	font-family: 'Open Sans', sans-serif;
-}
-ul.about-list li span{
-	margin-right: 10px;
-}
-
-/* Team Section */
 #how-we-invest{
 	position: relative;
 	background: linear-gradient( rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) ),url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450219056/1_5_w03ckb.jpg);
@@ -373,9 +357,8 @@ ul.about-list li span{
 	background-position: center;
 	background-repeat: no-repeat;
 	color: #ffffff;
-
-
 }
+
 #how-we-invest .overlay{
 	/*background-color: rgba(44,62,80,0.35);*/
 	height: 100%;
