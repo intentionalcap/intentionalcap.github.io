@@ -162,11 +162,7 @@ font-weight: 900;
 	position: relative;
 	background: linear-gradient( rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_0.3,w_0.3/v1442535738/tide_hits_rocks_ddc1qc.jpg) no-repeat center center fixed;
 	background-size: cover;
-	-webkit-background-size: 100% auto;
-	-moz-background-size: 100% auto;
-	-ms-background-size: 100% auto;
-	-o-background-size: 100% auto;
-	background-size: 100% auto;
+
 	color: #fff;
 	height: 100vh;
 }
