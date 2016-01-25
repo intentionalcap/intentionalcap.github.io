@@ -5,6 +5,7 @@ body, html{
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #3A3A3A;
+	min-height:100%;
 }
 
 h1{
@@ -160,13 +161,13 @@ font-weight: 900;
 /* Home Style */
 #home{
 	position: relative;
+	height: 100vh;
 	background: linear-gradient( rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_900,w_1400,c_fit/v1442535738/tide_hits_rocks_ddc1qc.jpg) no-repeat center center fixed;
 	background-size: cover;
 	background-color: #464646;
 	/*background-attachment: scroll;*/
 
 	color: #fff;
-	height: 100vh;
 }
 
 #home h1{
