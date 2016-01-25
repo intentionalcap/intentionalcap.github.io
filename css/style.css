@@ -160,7 +160,7 @@ font-weight: 900;
 /* Home Style */
 #home{
 	position: relative;
-	background: linear-gradient( rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_0.3,w_0.3/v1442535738/tide_hits_rocks_ddc1qc.jpg) no-repeat center center fixed;
+	background: linear-gradient( rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_900,w_1400,c_fit/v1442535738/tide_hits_rocks_ddc1qc.jpg) no-repeat center center fixed;
 	background-size: cover;
 	/*background-attachment: scroll;*/
 
@@ -271,7 +271,7 @@ a.fa.fa-angle-down:hover{
 	font-size: 18px;
 	min-height: 200px;
 	line-height: 25px;
-	background:  linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/w_0.23,h_0.23/v1442536372/inside_ocean_tvlug6.jpg) no-repeat center center fixed;
+	background:  linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_900,w_1400,c_fit/v1442536372/inside_ocean_tvlug6.jpg) no-repeat center center fixed;
 	background-size: cover;
 	color: #f2f2f2;
 }
@@ -325,7 +325,7 @@ a.fa.fa-angle-down:hover{
 }
 
 #investment-thesis{
-	background:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/v1450219056/1_5_w03ckb.jpg) no-repeat center center fixed;
+	background:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_900,w_1400,c_fit/v1450219056/1_5_w03ckb.jpg) no-repeat center center fixed;
 	background-size: cover;
 	padding: 100px 2vw;
 	padding-bottom: 140px;
@@ -431,7 +431,7 @@ a.fa.fa-angle-down:hover{
 	font-size: 18px;
 	padding: 110px 0px;
 	padding-bottom: 120px;
-	background: linear-gradient( rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/o_85,h_0.33,w_0.33/v1450823072/forest2_hglvvx.jpg) no-repeat center center fixed;
+	background: linear-gradient( rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/o_85,h_900,w_1400,c_fit/v1450823072/forest2_hglvvx.jpg) no-repeat center center fixed;
 	background-size: cover;
 }
 
