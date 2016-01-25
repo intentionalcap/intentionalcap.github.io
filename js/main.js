@@ -151,7 +151,7 @@ win.resize(function() {
 
     var win_w = win.width(),
         win_h = win.height(),
-        $bg    = $("#bg");
+        $bg    = $("#home");
 
     // Load narrowest background image based on
     // viewport width, but never load anything narrower
