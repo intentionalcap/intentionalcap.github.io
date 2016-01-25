@@ -512,7 +512,7 @@ a.fa.fa-angle-down:hover{
 #contact {
 	position: relative;
 	padding: 80px 73px;
-	padding-bottom: 160px;
+	padding-bottom: 200px;
   position: relative;
   max-width: 720px;
 }
@@ -529,6 +529,12 @@ a.fa.fa-angle-down:hover{
 
 #contact h2 {
 	margin-bottom: 8px;
+}
+
+.black-box {
+	height: 100px;
+	background-color: #121212;
+
 }
 
 
