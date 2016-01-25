@@ -160,12 +160,8 @@ font-weight: 900;
 /* Home Style */
 #home{
 	position: relative;
-
-	background:  linear-gradient( rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_0.3,w_0.3/v1442535738/tide_hits_rocks_ddc1qc.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_0.3,w_0.3/v1442535738/tide_hits_rocks_ddc1qc.jpg) no-repeat center center fixed;
 	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
 	color: #fff;
 	height: 100vh;
 }
