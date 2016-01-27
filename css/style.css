@@ -159,6 +159,16 @@ font-weight: 900;
 
 
 /* Home Style */
+#backdrop {
+	position: absolute;
+	background: linear-gradient( rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/v1442535738/tide_hits_rocks_ddc1qc.jpg) no-repeat center center fixed;
+	background-size: cover;
+	
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
 
 @media only screen and (max-width: 666px) {
 	#home{
@@ -170,6 +180,7 @@ font-weight: 900;
 		color: #fff;
 	}
 }
+
 @media only screen and (min-width: 640px) {
 	#home{
 		position: relative;
