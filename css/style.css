@@ -160,7 +160,11 @@ font-weight: 900;
 
 /* Home Style */
 #home{
-	position: relative;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	right: 0;
 	height: 100vh;
 	background: linear-gradient( rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_900,w_1400,c_fit/v1442535738/tide_hits_rocks_ddc1qc.jpg) no-repeat center center fixed;
 	background-size: cover;
@@ -235,6 +239,7 @@ a.fa.fa-angle-down:hover{
 
 /* About Section */
 #about{
+	margin-top: 100vh;
 	position: relative;
 	padding-top: 100px;
 	padding-bottom: 180px;
