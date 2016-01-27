@@ -54,6 +54,21 @@
 
 
     <div id="home" class="home text-center">
+      <div class="backdrop">
+        <!-- <img
+            sizes="(max-width: 1000px) 100vw, 1000px"
+            srcset="
+            castle_c_scale,w_360.jpg 360w,
+            castle_c_scale,w_492.jpg 492w,
+            castle_c_scale,w_602.jpg 602w,
+            castle_c_scale,w_696.jpg 696w,
+            castle_c_scale,w_787.jpg 787w,
+            castle_c_scale,w_868.jpg 868w,
+            castle_c_scale,w_942.jpg 942w,
+            castle_c_scale,w_1000.jpg 1000w"
+            src="http://res.cloudinary.com/djjldnjz7/image/upload/h_900,w_1400,c_fit/v1442535738/tide_hits_rocks_ddc1qc.jpg,w_1000.jpg"
+            alt="">
+        </div> -->
             <div class="content">
                 <h1>Welcome to</h1>
                 <h1><strong>Intentional Capital</strong></h1>
@@ -299,11 +314,14 @@
         </div>
 
         <div class="row">
-          <form class="contact-form">
+          <form class="contact-form" action="https://getsimpleform.com/messages?form_api_token=8c43b966d6284566bb4f45261455137a">
             <div class="form-group col-xs-12 col-md-12">
                 <label>Name</label>
                 <input type="text" class="form-control input-sm contact-name" required>
             </div>
+
+            <input type='text' name='test' value="hello"/>
+            <input type='submit' value='Test form' />
 
             <div class="form-group col-xs-12 col-sm-6">
                 <label>Organization</label>
@@ -331,7 +349,7 @@
                 <textarea class="form-control contact-message" rows="4" required></textarea>
             </div>
 
-            <input type="file" class="foofoo">
+            <input type="file" name="file">
 
             <input type="submit" class="btn tf-btn btn-primary contact-submit">
           </form>
