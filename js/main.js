@@ -101,20 +101,20 @@ function main() {
           });
         }
 
-        // $(".contact-form").submit(function(e) {
-        //   e.preventDefault();
-        //
-        //   if ( $('.contact-name').val() == '' ||
-        //        $('.contact-organization').val() == '' ||
-        //        $('.contact-position').val() == '' ||
-        //        $('.contact-email').val() == '' ||
-        //        $('.contact-subject').val() == '' ||
-        //        $('.contact-message').val() == '') {
-        //          alert('Please fill out all required fields')
-        //        } else {
-        //          sendEmail();
-        //        }
-        // });
+        $(".contact-form").submit(function(e) {
+          e.preventDefault();
+
+          if ( $('.contact-name').val() == '' ||
+               $('.contact-organization').val() == '' ||
+               $('.contact-position').val() == '' ||
+               $('.contact-email').val() == '' ||
+               $('.contact-subject').val() == '' ||
+               $('.contact-message').val() == '') {
+                 alert('Please fill out all required fields')
+               } else {
+                 sendEmail();
+               }
+        });
       });
         // var $container = $('#themes-boxes');
         // $container.isotope({
