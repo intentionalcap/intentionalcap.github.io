@@ -160,14 +160,6 @@ font-weight: 900;
 
 
 /* Home Style */
-#backdrop {
-	position: absolute;
-	background: linear-gradient( rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/v1442535738/tide_hits_rocks_ddc1qc.jpg) no-repeat center center fixed;
-	background-size: cover;
-	width: 100%;
-	height: 100%;
-
-}
 
 @media only screen and (max-width: 1040px) {
 	#home{
@@ -183,7 +175,7 @@ font-weight: 900;
 @media only screen and (min-width: 1040px) {
 	#home{
 		position: relative;
-		height: 1000px;
+		height: 800px;
 		background: linear-gradient( rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_900,w_1400,c_fit/v1442535738/tide_hits_rocks_ddc1qc.jpg) no-repeat center center fixed;
 		background-size: cover;
 		background-color: #464646;
@@ -284,7 +276,7 @@ a.fa.fa-angle-down:hover{
 }
 
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1040px) {
 	#who-we-are {
 		position: relative;
 		padding-top: 100px;
@@ -298,7 +290,9 @@ a.fa.fa-angle-down:hover{
 	}
 }
 
-@media only screen and (min-width: 640px) {
+
+
+@media only screen and (min-width: 1040px) {
 	#who-we-are {
 		position: relative;
 		padding-top: 100px;
@@ -360,15 +354,28 @@ a.fa.fa-angle-down:hover{
 	text-shadow: 3px 1px 1px rgba(26, 50, 121, 0.38);
 	text-shadow: none;
 }
+@media only screen and (max-width: 1040px) {
+	#investment-thesis{
+		background:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_900,w_1400,c_fit/v1450219056/1_5_w03ckb.jpg) no-repeat center center fixed;
+		background-size: cover;
+		padding: 100px 2vw;
+		padding-bottom: 140px;
+		font-size: 18px;
+		line-height: 25px;
+		color: #f2f2f2;
+	}
+}
 
-#investment-thesis{
-	background:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_900,w_1400,c_fit/v1450219056/1_5_w03ckb.jpg) no-repeat center center fixed;
-	background-size: cover;
-	padding: 100px 2vw;
-	padding-bottom: 140px;
-	font-size: 18px;
-	line-height: 25px;
-	color: #f2f2f2;
+@media only screen and (min-width: 1040px) {
+	#investment-thesis{
+		background:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_900,w_1400,c_fit/v1450219056/1_5_w03ckb.jpg) no-repeat center center fixed;
+		background-size: cover;
+		padding: 100px 2vw;
+		padding-bottom: 140px;
+		font-size: 18px;
+		line-height: 25px;
+		color: #f2f2f2;
+	}
 }
 
 #investment-thesis h1{
@@ -462,15 +469,28 @@ a.fa.fa-angle-down:hover{
 	padding: 103px 12px;
 
 }
-
-#research {
-	color: #fff;
-	font-size: 18px;
-	padding: 110px 0px;
-	padding-bottom: 120px;
-	background: linear-gradient( rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/o_85,h_900,w_1400,c_fit/v1450823072/forest2_hglvvx.jpg) no-repeat center center fixed;
-	background-size: cover;
+@media only screen and (max-width: 1040px) {
+	#research {
+		color: #fff;
+		font-size: 18px;
+		padding: 110px 0px;
+		padding-bottom: 120px;
+		background: linear-gradient( rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/o_85,h_900,w_1400,c_fit/v1450823072/forest2_hglvvx.jpg) no-repeat center center fixed;
+		background-size: cover;
+	}
 }
+
+@media only screen and (min-width: 1040px) {
+	#research {
+		color: #fff;
+		font-size: 18px;
+		padding: 110px 0px;
+		padding-bottom: 120px;
+		background: linear-gradient( rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/o_85,h_900,w_1400,c_fit/v1450823072/forest2_hglvvx.jpg) no-repeat center center fixed;
+		background-size: cover;
+	}
+}
+
 
 #research h1 {
 	margin-bottom: 80px;
