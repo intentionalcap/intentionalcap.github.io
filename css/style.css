@@ -206,8 +206,7 @@ font-weight: 900;
 
 #home .content{
 	position: absolute;
-	padding: 24% 0 0;
-	padding-top: 34vh;
+	padding-top: 300px;
 	width: 100%;
 	text-align: center;
 }
