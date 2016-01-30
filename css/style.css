@@ -8,11 +8,6 @@ body, html{
 	min-height:100%;
 }
 
-@viewport {
-    width: extend-to-zoom 980px;
-    min-zoom: 0.25;
-    max-zoom: 5;
-}
 
 h1{
 	text-transform: uppercase;
