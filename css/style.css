@@ -168,19 +168,8 @@ font-weight: 900;
 	height: 100%;
 
 }
-/*
-@media only screen and (max-width: 440px) {
-	#home{
-		position: relative;
-		height: 100vh;
-		background: linear-gradient( rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_400,w_400,c_fit/v1442535738/tide_hits_rocks_ddc1qc.jpg);
-		background-size: cover;
-		background-color: #464646;
-		color: #fff;
-	}
-}*/
 
-/*@media only screen and (min-width: 440px) {*/
+@media only screen and (max-width: 640px) {
 	#home{
 		position: relative;
 		height: 800px;
@@ -189,7 +178,18 @@ font-weight: 900;
 		background-color: #464646;
 		color: #fff;
 	}
-/*}*/
+}
+
+@media only screen and (min-width: 640px) {
+	#home{
+		position: relative;
+		height: 800px;
+		background: linear-gradient( rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_900,w_1400,c_fit/v1442535738/tide_hits_rocks_ddc1qc.jpg) no-repeat center center fixed;
+		background-size: cover;
+		background-color: #464646;
+		color: #fff;
+	}
+}
 
 
 #home h1{
@@ -285,6 +285,21 @@ a.fa.fa-angle-down:hover{
 }
 
 
+@media only screen and (max-width: 640px) {
+	#who-we-are {
+		position: relative;
+		padding-top: 100px;
+		padding-bottom: 180px;
+		font-size: 18px;
+		min-height: 200px;
+		line-height: 25px;
+		background:  linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_900,w_1400,c_fit/v1442536372/inside_ocean_tvlug6.jpg) no-repeat center center;
+		background-size: cover;
+		color: #f2f2f2;
+	}
+}
+
+@media only screen and (min-width: 640px) {
 
 #who-we-are {
 	position: relative;
@@ -297,6 +312,8 @@ a.fa.fa-angle-down:hover{
 	background-size: cover;
 	color: #f2f2f2;
 }
+}
+
 
 #who-we-are h1 {
 	margin-bottom: 108px;
