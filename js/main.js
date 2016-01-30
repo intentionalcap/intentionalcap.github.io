@@ -42,34 +42,6 @@ function main() {
          }
     });
 
-    $('body').scrollspy({
-        target: '.navbar-default',
-        offset: 80
-    })
-
-  	$(document).ready(function() {
-
-      $('.before-enter-checkbox').click(function() {
-        if (window.okToEnter) {
-          window.okToEnter = false;
-        } else {
-          window.okToEnter = true;
-        }
-      })
-
-      $('.before-enter-btn').click(function(e) {
-        e.preventDefault();
-        if (window.okToEnter) {
-          $('.modal-backdrop').addClass('hidden');
-          $('.confirm-modal').addClass('hidden');
-          $('.before-enter').removeClass('hidden');
-        } else {
-          alert('Please check box before continuing')
-        }
-      })
-
-  	});
-
   	/*====================================
     Portfolio Isotope Filter
     ======================================*/
@@ -116,29 +88,7 @@ function main() {
                }
         });
       });
-        // var $container = $('#themes-boxes');
-        // $container.isotope({
-        //     filter: '*',
-        //     animationOptions: {
-        //         duration: 750,
-        //         easing: 'linear',
-        //         queue: false
-        //     }
-        // });
-        $('.cat a').click(function() {
-            $('.cat .active').removeClass('active');
-            $(this).addClass('active');
-            var selector = $(this).attr('data-filter');
-            $container.isotope({
-                filter: selector,
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-            return false;
-        });
+
     });
 }());
 }
