@@ -169,7 +169,7 @@ font-weight: 900;
 
 }
 
-@media only screen and (max-width: 840px) {
+/*@media only screen and (min-width: 840px) {*/
 	#home{
 		position: relative;
 		height: 800px;
@@ -178,18 +178,18 @@ font-weight: 900;
 		background-color: #464646;
 		color: #fff;
 	}
-}
-
+/*}*/
+/*
 @media only screen and (min-width: 840px) {
 	#home{
 		position: relative;
-		height: 800px;
+		height: 1000px;
 		background: linear-gradient( rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_900,w_1400,c_fit/v1442535738/tide_hits_rocks_ddc1qc.jpg) no-repeat center center fixed;
 		background-size: cover;
 		background-color: #464646;
 		color: #fff;
 	}
-}
+}*/
 
 
 #home h1{
