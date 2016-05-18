@@ -1,13 +1,9 @@
-/*Designed by Robert Berki and Coded by Jenn Pereira edits by Sam Ullman*/
-
 body, html{
 	font-family: 'Lato', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #3A3A3A;
-	/*min-height:100%;*/
 }
-
 
 h1{
 	text-transform: uppercase;
