@@ -364,8 +364,12 @@
           services: "COMPUTER,BOX,GOOGLE_DRIVE,DROPBOX,EVERNOTE,GMAIL,CLOUDDRIVE,SKYDRIVE,URL,FTP,WEBDAV,CUSTOMSOURCE".split(",")
         },
         function(Blob){
+          var string = ""
+          Blob.forEach(function(el){
+            string += el.url + " "
+          })
           $('.fa-check-circle-o').removeClass('hidden');
-          $('.file-attacher').val(Blob.url);
+          $('.file-attacher').val(string);
         },
         function(FPError){
           //  console.log(FPError.toString()); - print errors to console

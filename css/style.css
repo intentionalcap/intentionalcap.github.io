@@ -236,6 +236,11 @@ a.fa.fa-angle-down:hover{
 	margin-bottom: 163px;
 	transition: all 0.5s;
 	font-weight: 900;
+  transition: opacity ease 0.5s;
+}
+
+.arrow-home.on2 {
+  opacity: 0;
 }
 
 .arrow-how-we-invest {

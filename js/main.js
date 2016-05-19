@@ -28,17 +28,22 @@ function main() {
         var navHeight = $(window).height() - 250;
         if ($(window).scrollTop() > navHeight) {
             $('.navbar-default').addClass('on');
+            $('.arrow-home').addClass('on2');
         } else {
-            $('.navbar-default').removeClass('on');
+          $('.navbar-default').removeClass('on');
+          $('.arrow-home').removeClass('on2');
         }
     });
 
     $(window).bind('scroll', function() {
          if ($(window).scrollTop() > 250) {
              $('.navbar-default').addClass('on');
+             $('.arrow-home').addClass('on2');
+
          }
          else {
              $('.navbar-default').removeClass('on');
+             $('.arrow-home').removeClass('on2');
          }
     });
 
