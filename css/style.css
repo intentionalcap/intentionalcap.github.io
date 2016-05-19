@@ -173,7 +173,7 @@ font-weight: 900;
 
 /* Home Style */
 
-@media only screen and (max-width: 440px) {
+/*@media only screen and (max-width: 440px) {
 	#home{
 		position: relative;
 		height: 800px;
@@ -183,9 +183,9 @@ font-weight: 900;
 		background-color: #464646;
 		color: #fff;
 	}
-}
+}*/
 
-@media only screen and (min-width: 440px) {
+/*@media only screen and (min-width: 440px) {*/
 	#home{
 		position: relative;
 		height: 800px;
@@ -195,7 +195,7 @@ font-weight: 900;
 		background-color: #464646;
 		color: #fff;
 	}
-}
+/*}*/
 
 
 #home h1{
