@@ -173,19 +173,19 @@ font-weight: 900;
 
 /* Home Style */
 
-/*@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 640px) {
 	#home{
 		position: relative;
 		height: 800px;
     width: 100%;
-		background: linear-gradient( rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/h_900,w_1400,c_fit/v1442535738/tide_hits_rocks_ddc1qc.jpg) no-repeat center center;
+		background: linear-gradient( rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/w_800,c_fit/v1442535738/tide_hits_rocks_ddc1qc.jpg) no-repeat center center;
 		background-size: cover;
 		background-color: #464646;
 		color: #fff;
 	}
-}*/
+}
 
-/*@media only screen and (min-width: 440px) {*/
+@media only screen and (min-width: 640px) {
 	#home{
 		position: relative;
 		height: 800px;
@@ -195,7 +195,7 @@ font-weight: 900;
 		background-color: #464646;
 		color: #fff;
 	}
-/*}*/
+}
 
 
 #home h1{
