@@ -288,7 +288,6 @@ a.fa.fa-angle-down:hover{
 }
 
 
-@media only screen and (max-width: 1040px) {
 	#who-we-are {
 		position: relative;
 		padding-top: 100px;
@@ -300,11 +299,9 @@ a.fa.fa-angle-down:hover{
 		background-size: cover;
 		color: #f2f2f2;
 	}
-}
 
 
 
-@media only screen and (min-width: 1040px) {
 	#who-we-are {
 		position: relative;
 		padding-top: 100px;
@@ -316,7 +313,6 @@ a.fa.fa-angle-down:hover{
 		background-size: cover;
 		color: #f2f2f2;
 	}
-}
 
 
 #who-we-are h1 {
