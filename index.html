@@ -304,7 +304,6 @@
           <input type="text" class="form-control input-sm contact-name" name="name" required>
         </div>
 
-
         <div class="form-group col-xs-12 col-sm-6">
           <label>Organization</label>
           <input type="text" class="form-control input-sm contact-organization" name="org" required>
@@ -331,30 +330,24 @@
           <textarea class="form-control contact-message" rows="4" name="message" required></textarea>
         </div>
 
-        <input type="button" value="Choose file..." onClick="pick_file()">
+
         <input type="hidden" class="file-attacher" name="file_attachment" value="">
 
-        <script type="text/javascript">
-          function pick_file () {
-            filepicker.setKey("Aqo93R6kTTIeJDkg4e6O7z")
-            filepicker.pick(
-              {
-                container: 'modal',
-                services: "COMPUTER,BOX,GOOGLE_DRIVE,DROPBOX,EVERNOTE,GMAIL,CLOUDDRIVE,SKYDRIVE,URL,FTP,WEBDAV,CUSTOMSOURCE".split(",")
-              },
-              function(Blob){
-                $('.file-attacher').val(Blob.url)
-              },
-              function(FPError){
-                //  console.log(FPError.toString()); - print errors to console
-              }
-            );
-          }
-        </script>
-
         <input type="submit" name="submit" class="btn tf-btn btn-primary contact-submit">
+
+
       </form>
+
+
     </div>
+
+    <div class="row" style="max-width:120px;">
+      <div class="special-buttons-o">
+        <input type="button" value="Choose file..." onClick="pick_file()">
+        <i class="fa fa-check-circle-o hidden"></i>
+      </div>
+    </div>
+
   </div>
 
   <div class="black-box">
@@ -362,6 +355,24 @@
 
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    function pick_file () {
+      filepicker.setKey("Aqo93R6kTTIeJDkg4e6O7z")
+      filepicker.pick(
+        {
+          container: 'modal',
+          services: "COMPUTER,BOX,GOOGLE_DRIVE,DROPBOX,EVERNOTE,GMAIL,CLOUDDRIVE,SKYDRIVE,URL,FTP,WEBDAV,CUSTOMSOURCE".split(",")
+        },
+        function(Blob){
+          $('.fa-check-circle-o').removeClass('hidden');
+          $('.file-attacher').val(Blob.url);
+        },
+        function(FPError){
+          //  console.log(FPError.toString()); - print errors to console
+        }
+      );
+    }
+  </script>
 </body>
 </html>
 
