@@ -477,7 +477,7 @@ a.fa.fa-angle-down:hover{
 	padding: 103px 12px;
 }
 
-/*@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 440px) {
 	#research {
 		color: #fff;
 		font-size: 18px;
@@ -486,9 +486,9 @@ a.fa.fa-angle-down:hover{
 		background: linear-gradient( rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/o_85,h_900,w_1400,c_fit/v1450823072/forest2_hglvvx.jpg) no-repeat center center;
 		background-size: cover;
 	}
-}*/
+}
 
-/*@media only screen and (min-width: 1040px) {*/
+@media only screen and (min-width: 440px) {
 	#research {
 		color: #fff;
 		font-size: 18px;
@@ -497,7 +497,7 @@ a.fa.fa-angle-down:hover{
 		background: linear-gradient( rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16) ), url(http://res.cloudinary.com/djjldnjz7/image/upload/o_85,h_900,w_1400,c_fit/v1450823072/forest2_hglvvx.jpg) no-repeat center center fixed;
 		background-size: cover;
 	}
-/*}*/
+}
 
 
 #research h1 {
